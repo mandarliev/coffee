@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -16,6 +17,7 @@ function Homepage() {
           className="object-cover"
         />
       </div>
+      <Navbar/>
       <div className="relative h-[70%] z-[10] px-[8rem] py-[1rem] flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center text-center">
           <h1 className="text-5xl ">SERVE YOU BETTER TASTE OF COFFEE</h1>
